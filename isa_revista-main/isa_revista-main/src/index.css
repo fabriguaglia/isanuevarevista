@@ -1,0 +1,20 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.flipbook {
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  .fliphead {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+}
+
+.ele-color {
+  color: rgb(71, 70, 70);
+}
